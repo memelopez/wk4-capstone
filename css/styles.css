@@ -1,1 +1,34 @@
 /* ----- styles for PETS ----- */
+
+@font-face {
+  font-family: gothamBold;
+  src: url(/fonts/GothamBoldRegular.ttf);
+}
+
+@font-face {
+  font-family: gothamRounded;
+  src: url(/fonts/GothamRoundedLight.otf);
+}
+
+@font-face {
+  font-family: helveticaLigth;
+  src: url(/fonts/HelveticaNeueLight.ttf);
+}
+
+@font-face {
+  font-family: helveticaMedium;
+  src: url(/fonts/HelveticaNeueMedium.ttf);
+}
+
+@font-face {
+  font-family: helveticaBold;
+  src: url(/fonts/HelveticaNeueBd.ttf);
+}
+
+/* -------------------------------------------
+navbar
+------------------------------------------- */
+
+.allofit {
+  background-color: #f7f7f7;
+}
