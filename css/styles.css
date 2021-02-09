@@ -1,34 +1,85 @@
 /* ----- styles for PETS ----- */
 
-@font-face {
-  font-family: gothamBold;
-  src: url(/fonts/GothamBoldRegular.ttf);
+/* ------------------------------------------
+fonts
+------------------------------------------- */
+
+.gotham-bold {
+  font-family: 'Hammersmith One', sans-serif;
 }
 
-@font-face {
-  font-family: gothamRounded;
-  src: url(/fonts/GothamRoundedLight.otf);
+.gotham-rounded {
+  font-family: 'Farsan', cursive;
+  font-weight: 800;
 }
 
-@font-face {
-  font-family: helveticaLigth;
-  src: url(/fonts/HelveticaNeueLight.ttf);
+.helvetica-ligth {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 300;
 }
 
-@font-face {
-  font-family: helveticaMedium;
-  src: url(/fonts/HelveticaNeueMedium.ttf);
+.helvetica-bold {
+  font-family: 'Raleway', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
 }
 
-@font-face {
-  font-family: helveticaBold;
-  src: url(/fonts/HelveticaNeueBd.ttf);
+.helvetica-Med {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* -------------------------------------------
+basic styles
+------------------------------------------- */
+
+img {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.allofit {
+  background-color: #f7f7f7;
 }
 
 /* -------------------------------------------
 navbar
 ------------------------------------------- */
 
-.allofit {
-  background-color: #f7f7f7;
+nav {
+  background-color: #383838;
+  border-bottom: 5px solid #888;
+}
+
+.logoleft img {
+  width: 30px;
+}
+
+nav section {
+  padding: 0.215em;
+}
+
+section.iconsright li {
+  padding: 0 0.25em;
+}
+
+nav section a span,
+nav section a div.logodog {
+  padding-right: 0.35em;
+}
+
+nav section a div.logodog {
+  padding-left: 0.35em;
+}
+
+.colorpink {
+  color: #d35266;
 }
