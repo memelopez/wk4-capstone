@@ -2,7 +2,7 @@
 
 /* ------------------------------------------
 fonts
-------------------------------------------- */
+*/
 
 .gotham-bold {
   font-family: 'Hammersmith One', sans-serif;
@@ -30,7 +30,7 @@ fonts
 
 /* -------------------------------------------
 basic styles
-------------------------------------------- */
+*/
 
 body {
   font-family: 'Raleway', Arial, sans-serif;
@@ -59,7 +59,7 @@ ul {
 
 /* -------------------------------------------
 navbar
-------------------------------------------- */
+ */
 
 nav {
   background-color: #383838;
@@ -72,10 +72,6 @@ nav {
 
 nav section {
   padding: 0.215em;
-}
-
-section.iconsright li {
-  padding: 0 0.25em;
 }
 
 nav section a span,
@@ -91,17 +87,21 @@ nav section a div.logodog {
   color: #d35266;
 }
 
+.colorgrey {
+  color: #888;
+}
+
 /* ----------------------------------------------
 header
 */
 
-header {
+header.mainhdr {
   background-color: palevioletred;
   height: 350px;
 }
 
 .row1 {
-  width: 85%;
+  width: 80%;
 }
 
 .txthdr {
@@ -137,4 +137,88 @@ header .formhdr fieldset button.butnformhdr {
 
 .w25 {
   width: 25%;
+}
+
+/* ---------------------------------------------
+footer
+*/
+
+.row2 {
+  width: 90%;
+}
+
+footer section.topfoo article {
+  padding: 0;
+}
+
+footer section article.firstfoo img {
+  width: 20px;
+}
+
+footer section article.firstfoo h3 {
+  color: #888;
+  font-size: 0.9em;
+  padding-left: 0.5em;
+}
+
+footer section article.firstfoo p {
+  color: #888;
+  font-size: 0.5em;
+  line-height: 1.5em;
+}
+
+.ache4enfooter {
+  color: #d35266;
+  font-size: 0.6em;
+  margin-bottom: 0.35em;
+}
+
+footer section.topfoo article.secondfoo header,
+footer section.topfoo article.thirdfoo header {
+  border-bottom: 1px solid #d35266;
+}
+
+footer section.topfoo article.secondfoo a,
+footer section.topfoo article.thirdfoo a {
+  color: #888;
+  font-size: 0.5em;
+  line-height: 0.6em;
+}
+
+.aenfoo {
+  color: #d35266;
+  font-size: 0.75em;
+}
+
+.answers {
+  color: #888;
+  font-size: 0.75em;
+  padding: 0.25em 0.5em;
+}
+
+footer section.lowfoo {
+  border-top: 1px solid #888;
+}
+
+.rightstuff li {
+  padding: 0 0.5em;
+}
+
+.spancre {
+  font-size: 0.8em;
+}
+
+/* stuff that has to go at bottom  */
+
+section.iconsright li {
+  padding: 0 0.25em;
+}
+
+footer section.topfoo article.fourthfoo ul li {
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+}
+
+footer section.topfoo article.fourthfoo ul.scnd li {
+  border: 1px solid #888;
 }
