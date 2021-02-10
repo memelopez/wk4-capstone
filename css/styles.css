@@ -190,7 +190,7 @@ footer section.topfoo article.thirdfoo a {
   font-size: 0.75em;
 }
 
-footer section.topfoo article.fourthfoo ul li{
+footer section.topfoo article.fourthfoo ul li {
   padding: 0.5em 0;
   margin: 0.5em 0;
 }
@@ -208,4 +208,3 @@ footer section.topfoo article.fourthfoo ul.scnd li {
 footer section.lowfoo {
   border-top: 1px solid #888;
 }
-
