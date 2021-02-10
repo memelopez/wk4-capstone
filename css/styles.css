@@ -116,8 +116,9 @@ header section.formhdr {
 header .formhdr fieldset div.form-group {
   margin-right: 0.2em;
   font-size: 0.75em;
-  border-radius: 0;
 }
+
+
 
 header .formhdr fieldset button.butnformhdr {
   margin-left: 0.35em;
@@ -125,6 +126,7 @@ header .formhdr fieldset button.butnformhdr {
 
 .fontform {
   font-size: 0.9em;
+  border-radius: 0;
 }
 
 .w15 {
