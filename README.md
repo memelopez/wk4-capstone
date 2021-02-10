@@ -17,7 +17,7 @@ In this project, I created an online shop according to a client's specifications
 
 ## Live Demo
 
-[Live Demo Link](https://diegodsha.github.io/Online-shop-for-motorcycle-accessories-/)
+[Live Demo Link](https://memelopez.github.io/wk4-capstone/)
 
 [Presentation Video](https://www.loom.com/share/2903c4484b194b32bf692d1304a9eff5?sharedAppSource=personal_library)
 
@@ -25,9 +25,9 @@ In this project, I created an online shop according to a client's specifications
 
 👤 **Elmer Lopez**
 
-- GitHub: [@Diegodsha](https://github.com/memelopez/)
-- Twitter: [@diegohdezchimo](https://twitter.com/memelopez10)
-- LinkedIn: [diegoshdezaguilar](https://www.linkedin.com/in/elmer-lopez-51b187200/)
+- GitHub: [@memelopez](https://github.com/memelopez/)
+- Twitter: [@memelopez10](https://twitter.com/memelopez10)
+- LinkedIn: [Elmer Lopez](https://www.linkedin.com/in/elmer-lopez-51b187200/)
 
 ## 🤝 Contributing
 
