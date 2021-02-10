@@ -59,17 +59,22 @@ ul {
 
 .txtxs {
   font-size: 0.35em;
-  line-height: 0.5em;
+  line-height: 0.8em;
 }
 
 .txtsm {
   font-size: 0.45em;
-  line-height: 0.6em;
+  line-height: 1em;
 }
 
 .txtmd {
   font-size: 0.65em;
   line-height: 1.2em;
+}
+
+.txtmdlg {
+  font-size: 0.85em;
+  line-height: 2em;
 }
 
 /* -------------------------------------------
@@ -158,6 +163,35 @@ header .formhdr fieldset button.butnformhdr {
 main
 */
 
+/* hot ads */
+
+.hotad img {
+  width: 100%;
+  height: 70%;
+}
+
+.adimg {
+  width: 40%;
+}
+
+.adtxt {
+  width: 60%;
+}
+
+.btnads {
+  height: 30px;
+}
+
+.adtxt .btnads a {
+  display: inline-block;
+  background-color: #d35266;
+  color: #f7f7f7;
+  border-radius: 0.15em;
+  border: 1px solid #8d2f3d;
+  height: 100%;
+  padding: 0.25em 0.5em;
+}
+
 /* catalog */
 .catalog {
   background-color: rgba(231, 231, 231, 0.89);
@@ -193,6 +227,8 @@ article.oneproduct {
 .nameproduct {
   font-size: 1.15em;
 }
+
+/* responsive catalog */
 
 @media (min-width: 992px) {
   article.oneproduct {
