@@ -57,6 +57,21 @@ ul {
   background-color: #f7f7f7;
 }
 
+.txtxs {
+  font-size: 0.35em;
+  line-height: 0.5em;
+}
+
+.txtsm {
+  font-size: 0.45em;
+  line-height: 0.6em;
+}
+
+.txtmd {
+  font-size: 0.65em;
+  line-height: 1.2em;
+}
+
 /* -------------------------------------------
 navbar
  */
@@ -140,11 +155,57 @@ header .formhdr fieldset button.butnformhdr {
 }
 
 /* ---------------------------------------------
+main
+*/
+
+/* catalog */
+.catalog {
+  background-color: rgba(231, 231, 231, 0.89);
+}
+
+.hdrcatalog {
+  border-bottom: 1px solid #383838;
+}
+
+main section.catalog img {
+  width: 100%;
+  height: 180px;
+}
+
+.hdrcatalog ul {
+  padding-left: 0;
+}
+
+.hdrcatalog li {
+  padding: 0.2em 0.35em;
+}
+
+.txthdrcata {
+  font-size: 0.75em;
+}
+
+article.oneproduct {
+  background-color: #f7f7f7;
+  height: 325px;
+  margin: 0.2em 0.35em 0.45em;
+}
+
+.nameproduct {
+  font-size: 1.15em;
+}
+
+@media (min-width: 992px) {
+  article.oneproduct {
+    margin: 0.2em 0.15em 0.45em;
+  }
+}
+
+/* ---------------------------------------------
 footer
 */
 
 .row2 {
-  width: 90%;
+  width: 95%;
 }
 
 footer section.topfoo article {
@@ -173,8 +234,17 @@ footer section article.firstfoo p {
   margin-bottom: 0.35em;
 }
 
-footer section.topfoo article.secondfoo header,
-footer section.topfoo article.thirdfoo header {
+.thirdfoo {
+  padding-left: 1em;
+  margin-left: 1em;
+}
+
+.fourthfoo {
+  margin-left: -1em;
+}
+
+footer section.topfoo article.secondfoo div.ftrscthdr,
+footer section.topfoo article.thirdfoo div.ftrscthdr {
   border-bottom: 1px solid #d35266;
 }
 
@@ -187,12 +257,10 @@ footer section.topfoo article.thirdfoo a {
 
 .aenfoo {
   color: #d35266;
-  font-size: 0.75em;
 }
 
 .answers {
   color: #888;
-  font-size: 0.75em;
   padding: 0.25em 0.5em;
 }
 
@@ -205,7 +273,8 @@ footer section.lowfoo {
 }
 
 .spancre {
-  font-size: 0.8em;
+  font-size: 0.35em;
+  line-height: 0.5em;
 }
 
 /* stuff that has to go at bottom  */
@@ -215,8 +284,8 @@ section.iconsright li {
 }
 
 footer section.topfoo article.fourthfoo ul li {
-  padding: 0.5em 0;
-  margin: 0.5em 0;
+  padding: 0.35em 0;
+  margin: 0.25em 0;
 }
 
 footer section.topfoo article.fourthfoo ul.scnd li {
