@@ -74,10 +74,6 @@ nav section {
   padding: 0.215em;
 }
 
-section.iconsright li {
-  padding: 0 0.25em;
-}
-
 nav section a span,
 nav section a div.logodog {
   padding-right: 0.35em;
@@ -89,6 +85,10 @@ nav section a div.logodog {
 
 .colorpink {
   color: #d35266;
+}
+
+.colorgrey {
+  color: #888;
 }
 
 /* ----------------------------------------------
@@ -148,7 +148,7 @@ footer
 }
 
 footer section.topfoo article {
-  padding: 0 3em;
+  padding: 0;
 }
 
 footer section article.firstfoo img {
@@ -190,15 +190,6 @@ footer section.topfoo article.thirdfoo a {
   font-size: 0.75em;
 }
 
-footer section.topfoo article.fourthfoo ul li {
-  padding: 0.5em 0;
-  margin: 0.5em 0;
-}
-
-footer section.topfoo article.fourthfoo ul.scnd li {
-  border: 1px solid #888;
-}
-
 .answers {
   color: #888;
   font-size: 0.75em;
@@ -207,4 +198,27 @@ footer section.topfoo article.fourthfoo ul.scnd li {
 
 footer section.lowfoo {
   border-top: 1px solid #888;
+}
+
+.rightstuff li {
+  padding: 0 0.5em;
+}
+
+.spancre {
+  font-size: 0.8em;
+}
+
+/* stuff that has to go at bottom  */
+
+section.iconsright li {
+  padding: 0 0.25em;
+}
+
+footer section.topfoo article.fourthfoo ul li {
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+}
+
+footer section.topfoo article.fourthfoo ul.scnd li {
+  border: 1px solid #888;
 }
