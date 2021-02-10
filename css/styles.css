@@ -32,6 +32,13 @@ fonts
 basic styles
 ------------------------------------------- */
 
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 img {
   width: 100%;
 }
@@ -82,4 +89,52 @@ nav section a div.logodog {
 
 .colorpink {
   color: #d35266;
+}
+
+/* ----------------------------------------------
+header
+*/
+
+header {
+  background-color: palevioletred;
+  height: 350px;
+}
+
+.row1 {
+  width: 85%;
+}
+
+.txthdr {
+  height: auto;
+}
+
+header section.formhdr {
+  background-color: transparent;
+  font-size: 0.75em;
+}
+
+header .formhdr fieldset div.form-group {
+  margin-right: 0.2em;
+  font-size: 0.75em;
+  border-radius: 0;
+}
+
+header .formhdr fieldset button.butnformhdr {
+  margin-left: 0.35em;
+}
+
+.fontform {
+  font-size: 0.9em;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w45 {
+  width: 45%;
+}
+
+.w25 {
+  width: 25%;
 }

@@ -2,7 +2,7 @@
 
 # Pets - almost everything related for pet care.
 
-> Corresponds to the capstone project of HTML module. THis project has two pages of a eCommerce website about domestic pets and accesories for pets at home.
+> Corresponds to the capstone project of HTML module. THis project has two pages of a eCommerce website about domestic pet accesories.
 
 image
 
