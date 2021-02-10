@@ -4,7 +4,7 @@
 
 > Corresponds to the capstone project of HTML module. THis project has two pages of a eCommerce website about domestic pet accesories.
 
-image
+<img src="assets/img/ScreenShot1.png" width="700">
 
 In this project, I created an online shop according to a client's specifications of colors, fonts, layout, and deadlines established before.
 
