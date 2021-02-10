@@ -77,13 +77,26 @@ ul {
   line-height: 2em;
 }
 
+.colorpink {
+  color: #d35266;
+}
+
+.colorgrey {
+  color: #888;
+}
+
 /* -------------------------------------------
 navbar
  */
 
-nav {
+nav.mynav {
   background-color: #383838;
   border-bottom: 5px solid #888;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 110;
 }
 
 .logoleft img {
@@ -103,12 +116,42 @@ nav section a div.logodog {
   padding-left: 0.35em;
 }
 
-.colorpink {
-  color: #d35266;
+.hotad img {
+  width: 100%;
+  height: 70%;
 }
 
-.colorgrey {
-  color: #888;
+nav .profilestuff img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px 50px;
+}
+
+.imguserholder {
+  width: 30px;
+  height: 30px;
+}
+
+.profilestuff li {
+  padding: 0 0.4em;
+}
+
+.postad {
+  width: 100%;
+  height: 100%;
+  background-color: #d35266;
+  border-radius: 10px;
+  border: 1px solid #8d2f3d;
+}
+
+/*  responsive nav */
+
+@media (min-width: 768px) {
+  .mynav .row {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ----------------------------------------------
@@ -118,6 +161,7 @@ header
 header.mainhdr {
   background-color: palevioletred;
   height: 350px;
+  margin-top: 40px;
 }
 
 .row1 {
@@ -164,11 +208,6 @@ main
 */
 
 /* hot ads */
-
-.hotad img {
-  width: 100%;
-  height: 70%;
-}
 
 .adimg {
   width: 40%;
