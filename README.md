@@ -4,7 +4,8 @@
 
 > Corresponds to the capstone project of HTML module. THis project has two pages of a eCommerce website about domestic pet accesories.
 
-<img src="assets/img/ScreenShot1.png" width="700">
+<img src="assets/img/pets-screenshot1.png" width="800">
+<img src="assets/img/pets-screenshot2.png">
 
 In this project, I created an online shop according to a client's specifications of colors, fonts, layout, and deadlines established before.
 
@@ -39,7 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](#) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 ## Credits
 
