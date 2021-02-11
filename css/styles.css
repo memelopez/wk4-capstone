@@ -239,7 +239,7 @@ header .formhdr fieldset a.butnformhdr {
 
 /* responsive header  */
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   header.mainhdr {
     margin-top: 65px;
   }
