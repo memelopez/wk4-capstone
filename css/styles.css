@@ -85,6 +85,26 @@ ul {
   color: #888;
 }
 
+.row1 {
+  width: 80%;
+}
+
+.row2 {
+  width: 95%;
+}
+
+/* responsive base styles */
+
+@media (min-width: 1200px) {
+  .row1 {
+    width: 70%;
+  }
+
+  .row2 {
+    width: 85%;
+  }
+}
+
 /* -------------------------------------------
 navbar
  */
@@ -155,7 +175,7 @@ header
 header.mainhdr {
   background-color: palevioletred;
   height: 350px;
-  margin-top: 65px;
+  margin-top: 45px;
   background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -173,10 +193,6 @@ header.mainhdr {
   right: 4px;
   top: 4px;
   z-index: 2;
-}
-
-.row1 {
-  width: 80%;
 }
 
 .txthdr {
@@ -217,6 +233,22 @@ header .formhdr fieldset a.butnformhdr {
   width: 25%;
 }
 
+.smltxtads {
+  font-size: 0.5em;
+}
+
+/* responsive header  */
+
+@media (min-width: 992px) {
+  header.mainhdr {
+    margin-top: 65px;
+  }
+
+  .smltxtads {
+    font-size: 0.85em;
+  }
+}
+
 /* ---------------------------------------------
 main
 */
@@ -255,6 +287,7 @@ main
 
 .btnsenad {
   font-size: 0.7em;
+  line-height: 1.2em;
 }
 
 /* responsive add */
@@ -262,6 +295,7 @@ main
 @media (min-width: 768px) {
   .btnsenad {
     font-size: 0.9em;
+    line-height: 1.8em;
   }
 }
 
@@ -307,10 +341,6 @@ article.oneproduct {
 /* ---------------------------------------------
 footer
 */
-
-.row2 {
-  width: 95%;
-}
 
 footer section.topfoo article {
   padding: 0;
