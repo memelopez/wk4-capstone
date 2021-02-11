@@ -195,7 +195,7 @@ header .formhdr fieldset div.form-group {
   font-size: 0.75em;
 }
 
-header .formhdr fieldset button.butnformhdr {
+header .formhdr fieldset a.butnformhdr {
   margin-left: 0.35em;
   background-color: #383838;
 }
@@ -413,6 +413,12 @@ footer section article.firstfoo img {
 .txtresult > div {
   height: 100%;
   margin-left: 0.5em;
+}
+
+.fornormalflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .btnimgres {
