@@ -195,8 +195,9 @@ header .formhdr fieldset div.form-group {
   font-size: 0.75em;
 }
 
-header .formhdr fieldset button.butnformhdr {
+header .formhdr fieldset a.butnformhdr {
   margin-left: 0.35em;
+  background-color: #383838;
 }
 
 .fontform {
@@ -321,12 +322,6 @@ footer section article.firstfoo h3 {
   padding-left: 0.5em;
 }
 
-footer section article.firstfoo p {
-  color: #888;
-  font-size: 0.5em;
-  line-height: 1.5em;
-}
-
 .ache4enfooter {
   color: #d35266;
   font-size: 0.6em;
@@ -420,6 +415,12 @@ footer section article.firstfoo img {
   margin-left: 0.5em;
 }
 
+.fornormalflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
 .btnimgres {
   position: absolute;
   bottom: 0;
@@ -463,9 +464,16 @@ footer section article.firstfoo img {
 .dateres,
 .priceres,
 .searchmods,
-.hdrsearmod {
+.hdrsearmod,
+.adtxt p {
   font-size: 0.5em;
 }
+
+footer section article.firstfoo p {
+  color: #888;
+  font-size: 0.5em;
+  line-height: 1.5em;
+} /* this is from footer but had to bring it down in the file cause linters is complaining */
 
 .firstsearchmods {
   padding-top: 0.5em;
@@ -505,7 +513,8 @@ footer section article.firstfoo img {
   .dateres,
   .priceres,
   .searchmods,
-  .hdrsearmod {
+  .hdrsearmod,
+  .adtxt p {
     font-size: 0.8em;
   }
 
@@ -523,7 +532,8 @@ footer section article.firstfoo img {
   .dateres,
   .priceres,
   .searchmods,
-  .hdrsearmod {
+  .hdrsearmod,
+  .adtxt p {
     font-size: 1em;
   }
 
@@ -536,12 +546,24 @@ footer section article.firstfoo img {
 
 .mainhdr-results {
   background-color: palevioletred;
-  margin-top: 66px;
+  margin-top: 38px;
   padding-top: 1em;
   background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .mainhdr-results {
+    margin-top: 50px;
+  }
+}
+
+.bghdr {
+  margin-top: 1em;
 }
 
 /* stuff that has to go at bottom  */
