@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      />
+      <title>Results eCommerce</title>
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+        crossorigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Farsan&family=Hammersmith+One&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+      <!-- hi there -->
+      <link rel="stylesheet" href="css/styles.css" />
+    </head>
+<body>
+  <div class="container-fluid p-0">
+    <nav class="mynav p-2">
+        <div class="row">
+          <section class="logoleft col-3 d-flex flex-row align-items-center">
+            <a href="#" class="d-flex flex-row align-items-center">
+              <div class="logodog">
+                <img src="assets/dog-svgrepo-pink.svg" alt="a dog" />
+              </div>
+              <h3 class="logotext text-white gotham-bold text-uppercase mb-0"
+                >Pets</h3
+              >
+            </a>
+          </section>
+          <section class="iconsright col-9 col-lg-6 d-flex flex-row align-items-center">
+            <ul
+              class="d-flex flex-row align-items-center justify-content-between mb-0 pl-0 w-100"
+            >
+              <li>
+                <a href="#">
+                  <span class="navicon">
+                    <i class="fas fa-home colorpink"></i>
+                  </span>
+                  <span class="navicontext colorpink gotham-rounded">HOME</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="navicon">
+                    <i class="fas fa-dog text-light"></i>
+                  </span>
+                  <span class="navicontext text-white gotham-rounded">DOGS</span>
+                </a>
+              </li>
+              <li class="">
+                <a href="#">
+                  <span class="navicon">
+                    <i class="fas fa-cat text-light"></i>
+                  </span>
+                  <span class="navicontext text-white gotham-rounded">CATS</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="postad d-none d-md-block p-2 text-white text-uppercase gotham-rounded">
+                  Post an add
+                </a>
+              </li>
+            </ul>
+          </section><!--.iconsright-->
+          <section class="profilestuff col-lg-3 d-none d-lg-flex flex-row align-items-center justify-content-end">
+            <ul class="d-flex flex-row justify-content-end  align-items-center mb-0">
+              <li>
+                <a href="#">
+                  <span class="navicon">
+                    <i class="fas fa-inbox text-white"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <span class="myusername text-white gotham-rounded">John Doe</span>
+              </li>
+              <li class="">
+                <div class="imguserholder">
+                  <a href="#">
+                    <img class="userimgjd" src="https://st.depositphotos.com/1008939/1880/i/600/depositphotos_18807295-stock-photo-portrait-of-handsome-man.jpg" alt="john Doe">
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </section> <!--.profilestuff-->
+        </div>
+    </nav>
+    <header class="mainhdr-results position-relative">
+        <div class="cover-gradient"></div>
+        <div class="row row1 mx-auto d-flex flex-column justify-content-start pb-5 h-100">
+            <section class="txthdr pb-2">
+                <h1 class="bghdr gotham-rounded text-white">PETS</h1>
+                <span class="smhdr helvetica-bold text-white">Shopping for your pet's stuff is so cool now!</span>
+            </section>
+            <section class="formhdr">
+                <form action="submit" class="h-100">
+                    <fieldset class="d-flex flex-row justify-content-around">
+                    <div class="form-group w15">
+                        <div class="dropdown">
+                        <select class="form-control fontform">
+                            <option>All Departments</option>
+                            <option>Dogs</option>
+                            <option>Cats</option>
+                            <option>Fish</option>
+                            <option>Hamsters</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="form-group w45">
+                        <input type="email" class="form-control fontform" placeholder="What do you search for?">
+                    </div>
+                    <div class="form-group w25">
+                        <input type="email" class="form-control fontform" placeholder="Savi">
+                    </div>
+                    <div class="form-group w15">
+                        <button type="submit" class=" butnformhdr btn btn-secondary w-100 fontform">Search</button>
+                    </div>
+                    </fieldset>
+                </form>
+            </section> <!--.formhdr-->
+        </div>
+    </header>
+    <main>
+      <section class="allresults">
+        <div class="row">
+          <div class="col-2 p-0 m-0">
+              <div class="mycontainer">
+                  <section class="firstsearchmods d-flex flex-column align-items-center justify-content-center">
+                      <div class="d-flex flex-column align-items-center justify-content-between">
+                          <ul class="p-0">
+                              <li>
+                                <input type="checkbox" name="dogcheck" id="">
+                                <label for="dogcheck" class="searchmods">Dog</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="catcheck" id="">
+                                <label for="catcheck" class="searchmods">Cat</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="fishcheck" id="">
+                                <label for="fishcheck" class="searchmods">Fish</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="turtlecheck" id="">
+                                <label for="turtlecheck" class="searchmods">Turtle</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="camaleoncheck" id="">
+                                <label for="camaleoncheck" class="searchmods">Camaleon</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="snakecheck" id="">
+                                <label for="snakecheck" class="searchmods">Snake</label>
+                              </li>
+                          </ul>
+                      </div>
+                  </section>
+                  <section class="firstsearchmods d-flex flex-column align-items-center justify-content-center">
+                      <div class="d-flex flex-column align-items-center justify-content-between">
+                          <h6 class="hdrsearmod">Price range</h6>
+                          <ul class="p-0">
+                              <li>
+                                <input type="checkbox" name="ones" id="">
+                                <label for="ones" class="searchmods">$1-$10</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="tens" id="">
+                                <label for="tens" class="searchmods">$10-$20</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="twenties" id="">
+                                <label for="twenties" class="searchmods">$20-$30</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="thirties" id="">
+                                <label for="thirties" class="searchmods">$30-$40</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="forties" id="">
+                                <label for="forties" class="searchmods">$40-$50</label>
+                              </li>
+                              <li>
+                                <input type="checkbox" name="fifties" id="">
+                                <label for="fifties" class="searchmods">$50-$60</label>
+                              </li>
+                          </ul>
+                      </div>
+                  </section>
+              </div>
+          </div>
+          <div class="col-10 col-xl-9 p-0 m-0">
+            <div class="hdrresults">
+                <span class="inforesults">
+                    <strong>138</strong>
+                    Results for "
+                    <strong>Accesries</strong>
+                    " Search at 
+                    <strong>Tegucigalpa, Honduras</strong>
+                    in Category
+                    <strong>Dogs</strong>
+                </span>
+            </div>
+            <div class="containsallresults">
+                <article class="oneresult d-flex p-3 mb-1">
+                    <div class="imgresult position-relative w-25">
+                        <img src="https://media.tractorsupply.com/is/image/TractorSupplyCompany/1233634?$456$" alt="retractable dog leash">
+                        <div class="btnimgres d-flex align-items-center justify-content-center">
+                            <i class="fas fa-arrow-circle-left colorpink"></i>
+                            <i class="fas fa-arrow-circle-right colorpink"></i>
+                        </div>
+                        <a href="#" class="aimgres"></a>
+                    </div>
+                    <div class="txtresult w-75">
+                        <div class="position-relative d-flex flex-column justify-content-between pb-4">
+                            <a href="#">
+                                <h4 class="nameres helvetica-bold">Retractable dog leash</h4>
+                            </a>
+                            <h5 class="statusres helvetica-bold colorpink">5m, Available</h5>
+                            <p class="descripres">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe possimus quas nesciunt ipsam rerum excepturi, esse vitae, eius autem maxime impedit voluptas ipsum praesentium beatae id unde nulla cupiditate ex?</p>
+                            <span class="locatres">
+                                <strong>Location:</strong>
+                                Col. La America
+                            </span>
+                            <span class="dateres">23 Jan, 2021</span>
+                            <div class="lowerrightbtnsres w-50 p-2">
+                                <a href="#" class="priceres text-white text-center helvetica-bold">8$</a>
+                            </div>
+                        </div>
+                    </div>
+                </article> <!--.oneresult #1-->
+                <article class="oneresult d-flex p-3 mb-1" id="secondresult">
+                    <div class="imgresult position-relative w-25">
+                        <img src="https://www.drmartybecker.com/wp-content/uploads/2017/02/bigstock-Pug-biting-toy-120077282.jpg" alt="chewable toy for dogs">
+                        <div class="btnimgres d-flex align-items-center justify-content-center">
+                            <i class="fas fa-arrow-circle-left colorpink"></i>
+                            <i class="fas fa-arrow-circle-right colorpink"></i>
+                        </div>
+                        <a href="#" class="aimgres"></a>
+                    </div>
+                    <div class="txtresult w-75">
+                        <div class="position-relative d-flex flex-column justify-content-between pb-4">
+                            <a href="#">
+                                <h4 class="nameres helvetica-bold">chewable toy for dogs</h4>
+                            </a>
+                            <h5 class="statusres helvetica-bold colorpink">Available</h5>
+                            <p class="descripres">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe possimus quas nesciunt ipsam rerum excepturi, esse vitae, eius autem maxime impedit voluptas ipsum praesentium beatae id unde nulla cupiditate ex?</p>
+                            <span class="locatres">
+                                <strong>Location:</strong>
+                                Col. La Campaña
+                            </span>
+                            <span class="dateres">3 Feb, 2021</span>
+                            <div class="lowerrightbtnsres w-50 p-2 d-flex flex-row justify-content-end">
+                                <a href="#" class="priceres text-white text-center helvetica-bold" id="price1">Give a call</a>
+                                <a href="#" class="priceres text-white text-center helvetica-bold">3$</a>
+                            </div>
+                        </div>
+                    </div>
+                </article> <!--.oneresult #2-->
+                <article class="oneresult d-flex p-3 mb-1">
+                    <div class="imgresult position-relative w-25">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/71RkaSEY0zL._AC_SL1500_.jpg" alt="Dog bed">
+                        <div class="btnimgres d-flex align-items-center justify-content-center">
+                            <i class="fas fa-arrow-circle-left colorpink"></i>
+                            <i class="fas fa-arrow-circle-right colorpink"></i>
+                        </div>
+                        <a href="#" class="aimgres"></a>
+                    </div>
+                    <div class="txtresult w-75">
+                        <div class="position-relative d-flex flex-column justify-content-between pb-4">
+                            <a href="#">
+                                <h4 class="nameres helvetica-bold">Dog bed</h4>
+                            </a>
+                            <h5 class="statusres helvetica-bold colorpink">Available</h5>
+                            <p class="descripres">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe possimus quas nesciunt ipsam rerum excepturi, esse vitae, eius autem maxime impedit voluptas ipsum praesentium beatae id unde nulla cupiditate ex?</p>
+                            <span class="locatres">
+                                <strong>Location:</strong>
+                                Col. Tepeyac
+                            </span>
+                            <span class="dateres">10 Dic, 2020</span>
+                            <div class="lowerrightbtnsres w-50 p-2 d-flex">
+                                <a href="#" class="priceres text-white text-center helvetica-bold">20$</a>
+                            </div>
+                        </div>
+                    </div>
+                </article> <!--.oneresult #3-->
+                <article class="oneresult d-flex p-3 mb-1">
+                    <div class="imgresult position-relative w-25">
+                        <img src="https://m.media-amazon.com/images/I/81pXHEqGATL._AC_SS350_.jpg" alt="Dog waste bags">
+                        <div class="btnimgres d-flex align-items-center justify-content-center">
+                            <i class="fas fa-arrow-circle-left colorpink"></i>
+                            <i class="fas fa-arrow-circle-right colorpink"></i>
+                        </div>
+                        <a href="#" class="aimgres"></a>
+                    </div>
+                    <div class="txtresult w-75">
+                        <div class="position-relative d-flex flex-column justify-content-between pb-4">
+                            <a href="#">
+                                <h4 class="nameres helvetica-bold">Dog waste bags</h4>
+                            </a>
+                            <h5 class="statusres helvetica-bold colorpink">Available</h5>
+                            <p class="descripres">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe possimus quas nesciunt ipsam rerum excepturi, esse vitae, eius autem maxime impedit voluptas ipsum praesentium beatae id unde nulla cupiditate ex?</p>
+                            <span class="locatres">
+                                <strong>Location:</strong>
+                                Col. Humuya
+                            </span>
+                            <span class="dateres">14 Jan, 2021</span>
+                            <div class="lowerrightbtnsres w-50 p-2">
+                                <a href="#" class="priceres text-white text-center helvetica-bold">20$</a>
+                            </div>
+                        </div>
+                    </div>
+                </article> <!--.oneresult #4-->
+                <article class="oneresult d-flex p-3 mb-1">
+                    <div class="imgresult position-relative w-25">
+                        <img src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/1417398-left-1" alt="waterbowl">
+                        <div class="btnimgres d-flex align-items-center justify-content-center">
+                            <i class="fas fa-arrow-circle-left colorpink"></i>
+                            <i class="fas fa-arrow-circle-right colorpink"></i>
+                        </div>
+                        <a href="#" class="aimgres"></a>
+                    </div>
+                    <div class="txtresult w-75">
+                        <div class="position-relative d-flex flex-column justify-content-between pb-4">
+                            <a href="#">
+                                <h4 class="nameres helvetica-bold">Water bowl</h4>
+                            </a>
+                            <h5 class="statusres helvetica-bold colorpink">Available</h5>
+                            <p class="descripres">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe possimus quas nesciunt ipsam rerum excepturi, esse vitae, eius autem maxime impedit voluptas ipsum praesentium beatae id unde nulla cupiditate ex?</p>
+                            <span class="locatres">
+                                <strong>Location:</strong>
+                                Col. Trapiche
+                            </span>
+                            <span class="dateres">1 Feb, 2021</span>
+                            <div class="lowerrightbtnsres w-50 p-2">
+                                <a href="#" class="priceres text-white text-center helvetica-bold">10$</a>
+                            </div>
+                        </div>
+                    </div>
+                </article> <!--.oneresult #5-->
+            </div><!--.containsallresults-->
+          </div>
+          <div class="d-none col-xl-1"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-3">
+      <section class="topfoo py-3">
+        <div class="row row2 mx-auto"> 
+          <article class="firstfoo col-4">
+            <div class="d-flex align-items-center justify-content-center w-80 pb-2">
+              <img src="assets/dog-gray.svg" alt="a dog in the foo"/>
+              <h3 class="helvetica-bold text-uppercase mb-0">PETS</h3>
+            </div>
+            <div class="text-center">
+              <p class="helvetica-ligth">
+                Lorem ipsum dolor is simply a dummy text. Lorem Ipsum has been the industry's standard dummy text ecer since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </article>
+          <article class="secondfoo col-4 px-4">
+            <div class="ftrscthdr">
+              <h4 class="ache4enfooter helvetica-Med text-uppercase">Categories</h4>
+            </div>
+            <div class="d-flex justify-content-between">
+              <ul class="p-0 mb-0">
+                <li>
+                  <a href="#" class="helvetica-ligth">Dogs</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Cats</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Fish</a>                    
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Hamsters</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Turtles</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Spiders</a>
+                </li>
+              </ul>
+              <ul class="p-0 mb-0">
+                <li>
+                  <a href="#" class="helvetica-ligth">Dogs</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Cats</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Fish</a>                    
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Hamsters</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Turtles</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Spiders</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="thirdfoo col-2 pl-4">
+            <div class="ftrscthdr">
+              <h4 class="ache4enfooter text-uppercase">Navigation</h4>
+            </div>
+            <div>
+              <ul class="p-0 mb-0">
+                <li>
+                  <a href="#" class="helvetica-ligth">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Sign In</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Sign Up</a>                    
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">FAQ</a>
+                </li>
+                <li>
+                  <a href="#" class="helvetica-ligth">Help</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="fourthfoo col-2 p-1">
+            <div class="d-flex justify-content-end">
+              <ul class="py-0 px-1 m-0 text-center">
+                <li>
+                  <a href="#" class="aenfoo helvetica-ligth txtmd">
+                    Country
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="aenfoo helvetica-ligth txtmd">
+                    Language
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="aenfoo helvetica-ligth txtmd">
+                    Currency
+                  </a>
+                </li>
+              </ul>
+              <ul class="scnd py-0 px-1 m-0 text-center">
+                <li>
+                  <a href="#" class="answers helvetica-ligth txtmd">
+                    Switzerland
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="answers helvetica-ligth txtmd">
+                    English
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="answers helvetica-ligth txtmd">
+                    US Dollar
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="lowfoo py-2">
+        <div class="row row2 mx-auto d-flex flex-row justify-content-between">
+          <div class="leftstuff w-50">
+            <span class="spancre colorgrey helvetica-ligth">Copyright 2015 Zattix.com. All right reserved. Designed by Mohammed Awad.</span>
+          </div>
+          <div class="rightstuff w-50">
+            <ul class="d-flex justify-content-end p-0 m-0">
+              <li>
+                <a href="#">
+                  <i class="fab fa-yahoo colorgrey"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-google-plus-g colorgrey"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in colorgrey"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter colorgrey"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f colorgrey"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+  <!--.continer-fluid-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

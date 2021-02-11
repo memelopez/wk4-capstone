@@ -121,12 +121,6 @@ nav section a div.logodog {
   height: 70%;
 }
 
-nav .profilestuff img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50px 50px;
-}
-
 .imguserholder {
   width: 30px;
   height: 30px;
@@ -161,7 +155,24 @@ header
 header.mainhdr {
   background-color: palevioletred;
   height: 350px;
-  margin-top: 40px;
+  margin-top: 65px;
+  background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-gradient {
+  display: block;
+  position: absolute;
+  background: transparent url(../assets/img/angryimg.png) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+  z-index: 2;
 }
 
 .row1 {
@@ -170,11 +181,13 @@ header.mainhdr {
 
 .txthdr {
   height: auto;
+  z-index: 3;
 }
 
 header section.formhdr {
   background-color: transparent;
   font-size: 0.75em;
+  z-index: 3;
 }
 
 header .formhdr fieldset div.form-group {
@@ -231,6 +244,26 @@ main
   padding: 0.25em 0.5em;
 }
 
+.btn1ad {
+  width: 30%;
+}
+
+.btn2ad {
+  width: 70%;
+}
+
+.btnsenad {
+  font-size: 0.7em;
+}
+
+/* responsive add */
+
+@media (min-width: 768px) {
+  .btnsenad {
+    font-size: 0.9em;
+  }
+}
+
 /* catalog */
 .catalog {
   background-color: rgba(231, 231, 231, 0.89);
@@ -238,11 +271,6 @@ main
 
 .hdrcatalog {
   border-bottom: 1px solid #383838;
-}
-
-main section.catalog img {
-  width: 100%;
-  height: 180px;
 }
 
 .hdrcatalog ul {
@@ -285,10 +313,6 @@ footer
 
 footer section.topfoo article {
   padding: 0;
-}
-
-footer section article.firstfoo img {
-  width: 20px;
 }
 
 footer section article.firstfoo h3 {
@@ -350,6 +374,174 @@ footer section.lowfoo {
 .spancre {
   font-size: 0.35em;
   line-height: 0.5em;
+}
+
+/* ----------------------------------------------
+results
+*/
+
+section.allresults {
+  background-color: #dadada;
+}
+
+.allresults img {
+  width: 100%;
+  height: 100%;
+}
+
+nav .profilestuff img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px 50px;
+}
+
+main section.catalog img {
+  width: 100%;
+  height: 180px;
+}
+
+footer section article.firstfoo img {
+  width: 20px;
+}
+
+.oneresult,
+.hdrresults {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #696969;
+  padding: 0.5em;
+}
+
+.txtresult {
+  padding: 0.5em;
+}
+
+.txtresult > div {
+  height: 100%;
+  margin-left: 0.5em;
+}
+
+.btnimgres {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  height: 10%;
+  background-color: #696969;
+}
+
+.aimgres {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.priceres {
+  display: block;
+  width: 15%;
+  height: 7%;
+  background-color: #d35266;
+  border: 1px solid #8d2f3d;
+  margin-left: auto;
+  padding: 0.15em;
+  font-size: 0.9em;
+}
+
+.lowerrightbtnsres {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.inforesults,
+.nameres,
+.statusres,
+.descripres,
+.locatres,
+.dateres,
+.priceres,
+.searchmods,
+.hdrsearmod {
+  font-size: 0.5em;
+}
+
+.firstsearchmods {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #696969;
+}
+
+.mycontainer {
+  border-right: 1px solid #696969;
+  padding: 0 0.4em;
+}
+
+#secondresult {
+  background-color: white;
+}
+
+#secondresult .priceres {
+  margin: 0 0.5em;
+}
+
+#secondresult #price1 {
+  width: 30%;
+}
+
+/* responsive results */
+
+@media (min-width: 768px) {
+  .hdrresults {
+    padding: 1em;
+  }
+
+  .inforesults,
+  .nameres,
+  .statusres,
+  .descripres,
+  .locatres,
+  .dateres,
+  .priceres,
+  .searchmods,
+  .hdrsearmod {
+    font-size: 0.8em;
+  }
+
+  .txtresult {
+    padding: 0.75em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inforesults,
+  .nameres,
+  .statusres,
+  .descripres,
+  .locatres,
+  .dateres,
+  .priceres,
+  .searchmods,
+  .hdrsearmod {
+    font-size: 1em;
+  }
+
+  .txtresult {
+    padding: 1em;
+  }
+}
+
+/* header-results */
+
+.mainhdr-results {
+  background-color: palevioletred;
+  margin-top: 66px;
+  padding-top: 1em;
+  background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* stuff that has to go at bottom  */
