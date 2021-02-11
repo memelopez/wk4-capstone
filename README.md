@@ -5,7 +5,7 @@
 > Corresponds to the capstone project of HTML module. THis project has two pages of a eCommerce website about domestic pet accesories.
 
 <img src="assets/img/pets-screenshot1.png" width="800">
-<img src="assets/img/pets-screenshot2.png">
+<img src="assets/img/pets-screenshot2.png" width="600">
 
 In this project, I created an online shop according to a client's specifications of colors, fonts, layout, and deadlines established before.
 
@@ -20,7 +20,7 @@ In this project, I created an online shop according to a client's specifications
 
 [Live Demo Link](https://memelopez.github.io/wk4-capstone/)
 
-[Presentation Video](https://www.loom.com/share/2903c4484b194b32bf692d1304a9eff5?sharedAppSource=personal_library)
+[Presentation Video](https://www.loom.com/share/36dac568cc4d4f358cf3bd0a90481066)
 
 ## Authors
 
