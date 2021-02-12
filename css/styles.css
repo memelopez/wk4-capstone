@@ -57,16 +57,6 @@ ul {
   background-color: #f7f7f7;
 }
 
-.txtxs {
-  font-size: 0.35em;
-  line-height: 0.8em;
-}
-
-.txtsm {
-  font-size: 0.45em;
-  line-height: 1em;
-}
-
 .txtmd {
   font-size: 0.65em;
   line-height: 1.2em;
@@ -91,6 +81,10 @@ ul {
 
 .row2 {
   width: 95%;
+}
+
+.container-fluid {
+  overflow-x: hidden;
 }
 
 /* responsive base styles */
@@ -174,7 +168,7 @@ header
 
 header.mainhdr {
   background-color: palevioletred;
-  height: 350px;
+  height: 250px;
   margin-top: 45px;
   background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
   background-position: center;
@@ -346,37 +340,27 @@ footer section.topfoo article {
   padding: 0;
 }
 
-footer section article.firstfoo h3 {
-  color: #888;
-  font-size: 0.9em;
-  padding-left: 0.5em;
+.firstfootxt {
+  font-size: 0.55em;
+  line-height: 1.1em;
 }
 
-.ache4enfooter {
-  color: #d35266;
-  font-size: 0.6em;
-  margin-bottom: 0.35em;
+.firstfoo img {
+  width: 25px;
+  height: auto;
+}
+
+footer section article.firstfoo h3 {
+  padding-left: 0.55em;
 }
 
 .thirdfoo {
   padding-left: 1em;
-  margin-left: 1em;
-}
-
-.fourthfoo {
-  margin-left: -1em;
 }
 
 footer section.topfoo article.secondfoo div.ftrscthdr,
 footer section.topfoo article.thirdfoo div.ftrscthdr {
   border-bottom: 1px solid #d35266;
-}
-
-footer section.topfoo article.secondfoo a,
-footer section.topfoo article.thirdfoo a {
-  color: #888;
-  font-size: 0.5em;
-  line-height: 0.6em;
 }
 
 .aenfoo {
@@ -385,20 +369,39 @@ footer section.topfoo article.thirdfoo a {
 
 .answers {
   color: #888;
-  padding: 0.25em 0.5em;
+  padding: 0.25em 0.25em;
 }
 
 footer section.lowfoo {
   border-top: 1px solid #888;
 }
 
+.leftstuff {
+  width: 60%;
+}
+
+.rightstuff {
+  width: 40%;
+}
+
 .rightstuff li {
   padding: 0 0.5em;
 }
 
-.spancre {
-  font-size: 0.35em;
-  line-height: 0.5em;
+@media (min-width: 768px) {
+  .firstfootxt,
+  .fourthfootxt {
+    font-size: 0.65em;
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .firstfootxt,
+  .fourthfootxt {
+    font-size: 0.85em;
+    line-height: 1.8em;
+  }
 }
 
 /* ----------------------------------------------
@@ -425,10 +428,6 @@ main section.catalog img {
   height: 180px;
 }
 
-footer section article.firstfoo img {
-  width: 20px;
-}
-
 .oneresult,
 .hdrresults {
   background-color: #e7e7e7;
@@ -438,6 +437,7 @@ footer section article.firstfoo img {
 
 .txtresult {
   padding: 0.5em;
+  width: 65%;
 }
 
 .txtresult > div {
@@ -471,8 +471,8 @@ footer section article.firstfoo img {
 
 .priceres {
   display: block;
-  width: 15%;
-  height: 7%;
+  width: 25%;
+  height: 10%;
   background-color: #d35266;
   border: 1px solid #8d2f3d;
   margin-left: auto;
@@ -496,14 +496,8 @@ footer section article.firstfoo img {
 .searchmods,
 .hdrsearmod,
 .adtxt p {
-  font-size: 0.5em;
+  font-size: 0.65em;
 }
-
-footer section article.firstfoo p {
-  color: #888;
-  font-size: 0.5em;
-  line-height: 1.5em;
-} /* this is from footer but had to bring it down in the file cause linters is complaining */
 
 .firstsearchmods {
   padding-top: 0.5em;
@@ -525,7 +519,15 @@ footer section article.firstfoo p {
 }
 
 #secondresult #price1 {
-  width: 30%;
+  width: 650%;
+}
+
+.imgresult {
+  width: 45%;
+}
+
+.allresults .row div[class^="col-"] {
+  border-right: 1px solid #383838;
 }
 
 /* responsive results */
@@ -533,6 +535,15 @@ footer section article.firstfoo p {
 @media (min-width: 768px) {
   .hdrresults {
     padding: 1em;
+  }
+
+  .imgresults {
+    width: 30%;
+  }
+
+  .txtresult {
+    width: 70%;
+    padding: 0.75em;
   }
 
   .inforesults,
@@ -546,10 +557,6 @@ footer section article.firstfoo p {
   .hdrsearmod,
   .adtxt p {
     font-size: 0.8em;
-  }
-
-  .txtresult {
-    padding: 0.75em;
   }
 }
 
@@ -603,7 +610,7 @@ section.iconsright li {
 }
 
 footer section.topfoo article.fourthfoo ul li {
-  padding: 0.35em 0;
+  padding: 0.25em 0;
   margin: 0.25em 0;
 }
 
