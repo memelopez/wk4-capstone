@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Pets - almost everything related for pet care.
+# Pets - eCommerce site for pets in Honduras.
 
-> Corresponds to the capstone project of HTML module. THis project has two pages of a eCommerce website about domestic pet accesories.
+> Pets is a personalized page based on [this desing](https://www.behance.net/gallery/24796463/ZATTIX) for buying pets and accesories for pets.
+
+This project has two HTML pages: home and results. Correponds to week four captsone project of HTML module. 
 
 <img src="assets/img/pets-screenshot1.png" width="800">
 <img src="assets/img/pets-screenshot2.png" width="600">
 
-In this project, I created an online shop according to a client's specifications of colors, fonts, layout, and deadlines established before.
 
 ## Built With
 
@@ -22,7 +23,15 @@ In this project, I created an online shop according to a client's specifications
 
 [Presentation Video](https://www.loom.com/share/36dac568cc4d4f358cf3bd0a90481066)
 
-## Authors
+## Getting started
+
+All needed is to clone the repo on your machine. Since the project uses CDN (Bootrap 5) the Bootrap desing features are supposed to work automatically. 
+
+## Acknowledgement  
+
+The original desing used to layout this project was made by [Mohammed Awad](https://www.behance.net/M_Awad).
+
+## Author
 
 👤 **Elmer Lopez**
 
