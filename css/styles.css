@@ -227,10 +227,6 @@ header .formhdr fieldset a.butnformhdr {
   width: 25%;
 }
 
-.smltxtads {
-  font-size: 0.5em;
-}
-
 /* responsive header  */
 
 @media (min-width: 992px) {
@@ -389,17 +385,15 @@ footer section.lowfoo {
 }
 
 @media (min-width: 768px) {
-  .firstfootxt,
-  .fourthfootxt {
+  .firstfootxt {
     font-size: 0.65em;
     line-height: 1.5em;
   }
 }
 
 @media (min-width: 992px) {
-  .firstfootxt,
-  .fourthfootxt {
-    font-size: 0.85em;
+  .firstfootxt {
+    font-size: 0.95em;
     line-height: 1.8em;
   }
 }
