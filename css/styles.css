@@ -337,7 +337,7 @@ footer section.topfoo article {
 }
 
 .firstfootxt {
-  font-size: 0.55em;
+  font-size: 0.65em;
   line-height: 1.1em;
 }
 
@@ -386,7 +386,7 @@ footer section.lowfoo {
 
 @media (min-width: 768px) {
   .firstfootxt {
-    font-size: 0.65em;
+    font-size: 0.75em;
     line-height: 1.5em;
   }
 }
@@ -518,6 +518,7 @@ main section.catalog img {
 
 .imgresult {
   width: 45%;
+  height: auto;
 }
 
 .allresults .row div[class^="col-"] {

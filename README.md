@@ -2,7 +2,7 @@
 
 # Pets - eCommerce site for pets in Honduras.
 
-> Pets is a personalized page based on [this desing](https://www.behance.net/gallery/24796463/ZATTIX) for buying pets and accesories for pets.
+> Pets is a personalized page based on [this design](https://www.behance.net/gallery/24796463/ZATTIX) for buying pets and accesories for pets.
 
 This project has two HTML pages: home and results. Correponds to week four captsone project of HTML module. 
 
