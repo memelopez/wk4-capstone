@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Pets eCommerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Farsan&family=Hammersmith+One&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- hi there -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <nav class="mynav p-2">
+        <div class="row">
+          <section class="logoleft col-3 d-flex flex-row align-items-center">
+            <a href="index.html" class="d-flex flex-row align-items-center">
+              <div class="logodog">
+                <img src="assets/dog-svgrepo-pink.svg" alt="a dog" />
+              </div>
+              <h3 class="logotext text-white gotham-bold text-uppercase mb-0"
+                >Pets</h3
+              >
+            </a>
+          </section>
+          <section class="iconsright col-9 col-lg-6 d-flex flex-row align-items-center">
+            <ul
+              class="d-flex flex-row align-items-center justify-content-between mb-0 pl-0 w-100"
+            >
+              <li>
+                <a href="index.html">
+                  <span class="navicon">
+                    <i class="fas fa-home colorpink"></i>
+                  </span>
+                  <span class="navicontext colorpink gotham-rounded">HOME</span>
+                </a>
+              </li>
+              <li>
+                <a href="results.html">
+                  <span class="navicon">
+                    <i class="fas fa-dog text-light"></i>
+                  </span>
+                  <span class="navicontext text-white gotham-rounded">DOGS</span>
+                </a>
+              </li>
+              <li class="">
+                <a href="results.html">
+                  <span class="navicon">
+                    <i class="fas fa-cat text-light"></i>
+                  </span>
+                  <span class="navicontext text-white gotham-rounded">CATS</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="postad d-none d-md-block p-2 text-white text-uppercase gotham-rounded">
+                  Post an add
+                </a>
+              </li>
+            </ul>
+          </section><!--.iconsright-->
+          <section class="profilestuff col-lg-3 d-none d-lg-flex flex-row align-items-center justify-content-end">
+            <ul class="d-flex flex-row justify-content-end  align-items-center mb-0">
+              <li>
+                <a href="#">
+                  <span class="navicon">
+                    <i class="fas fa-inbox text-white"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <span class="myusername text-white gotham-rounded">John Doe</span>
+              </li>
+              <li class="">
+                <div class="imguserholder">
+                  <a href="#">
+                    <img class="userimgjd" src="https://st.depositphotos.com/1008939/1880/i/600/depositphotos_18807295-stock-photo-portrait-of-handsome-man.jpg" alt="john Doe">
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </section> <!--.profilestuff-->
+        </div>
+      </nav>
+      <header class="mainhdr position-relative">
+        <div class="cover-gradient"></div>
+        <div class="row row1 mx-auto d-flex flex-column justify-content-end pb-5 h-100">
+          <section class="txthdr text-center pb-5">
+            <h1 class="bghdr gotham-rounded text-white">PETS</h1>
+            <span class="smhdr helvetica-bold text-white">Shopping for your pet's stuff is so cool now!</span>
+          </section>
+          <section class="formhdr">
+            <form action="submit" class="h-100">
+              <fieldset class="d-flex flex-row justify-content-around">
+                <div class="form-group w15">
+                  <div class="dropdown">
+                    <select class="form-control fontform">
+                      <option>All Departments</option>
+                      <option>Dogs</option>
+                      <option>Cats</option>
+                      <option>Fish</option>
+                      <option>Hamsters</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group w45">
+                  <input type="email" class="form-control fontform" placeholder="What do you search for?">
+                </div>
+                <div class="form-group w25">
+                  <input type="email" class="form-control fontform" placeholder="Where?">
+                </div>
+                <div class="form-group w15">
+                  <a href="results.html" class=" butnformhdr btn btn-secondary w-100 fontform">
+                    Search
+                </a>
+                </div>
+              </fieldset>
+            </form>
+          </section> <!--.formhdr-->
+        </div>
+      </header>
+      <main class="d-flex flex-column">
+        <section class="hotad">
+          <div class="row row1 mx-auto">
+            <div class="adcntn mx-2 my-1">
+              <div class="adhdr py-2">
+                <h4 class="adh4 text-uppercase colorgrey helvetica-bold txtmdlg">Hot Ads</h4>
+              </div>
+              <div class="admain p-2 d-flex flex-row justify-content-center">
+                <div class="adimg p-1 d-flex flex-column justify-content-center">
+                  <img src="https://vcahospitals.com/-/media/vca/images/lifelearn-images-foldered/17507/dog_food_choices.png?la=en&hash=BAEB9FCFFD63A046A76DC0F55447DD7B" alt="dog bowls filled with dog food">
+                </div>
+                <div class="adtxt d-flex flex-column">
+                  <h2 class="h3ads helvetica-bold  colorpink firstfootxt">Super Food for Super Dogs</h2>
+                  <p class="helvetica-Med  text-dark firstfootxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aperiam commodi quidem debitis, voluptate aliquam modi beatae aspernatur? Numquam ad aliquam odit nulla inventore dignissimos commodi ab totam deleniti fuga!</p>
+                  <span class="helvetica-ligth my-1 colorgrey firstfootxt">By: Spunky Leonel</span>
+                  <span class="helvetica-ligth my-1 colorgrey firstfootxt">Where: Los Angeles</span>
+                  <div class="btnads d-flex w-75 ">
+                    <a href="#" class="btnsenad btn1ad helvetica-ligth text-center">450$</a>
+                    <a href="#" class="btn2ad d-flex align-items-center p-1 justify-content-center">
+                      <i class="fas fa-shopping-cart text-white mx-2"></i>
+                      <span class="btnsenad helvetica-ligth  text-white text-center">purchase details</span>
+                    </a>
+                  </div>
+                </div><!--.adtxt-->
+              </div><!--.addmain-->
+            </div><!--.adcntn-->
+          </div>
+        </section>
+        <section class="catalog py-4">
+          <div class="row row2 mx-auto">
+            <div class="hdrcatalog py-2">
+              <ul class="d-flex flex-row align-items-center pl-0 mb-0">
+                <li>
+                  <i class="fas fa-paw"></i>
+                </li>
+                <li>
+                  <h6 class="h3hdrcata helvetica-bold mb-0">Dogs</h6>
+                </li>
+                <li>
+                  <small class="txthdrcata helvetica-ligth">Compare prices for canine accesories</small>
+                </li>
+              </ul>
+            </div> <!--.hdrcatalog #1-->
+            <div class="containsproducts py-1">
+              <div class="row">
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="data:image/jpeg;base64,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" alt="cute dog">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Cute puppy</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Tegucigalpa, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">450$</span>
+                    </div>
+                  </article> <!--.oneproduct-->
+                </div> 
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/dog_cool_summer_slideshow/1800x1200_dog_cool_summer_other.jpg?resize=750px:*" alt="happy doggy">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Happy Dogggy</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Tegucigalpa, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">450$</span>
+                    </div>
+                  </article><!--.oneproduct #2-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://images.theconversation.com/files/319652/original/file-20200310-61148-vllmgm.jpg?ixlib=rb-1.1.0&q=30&auto=format&w=600&h=400&fit=crop&dpr=2" alt="Angry dogo">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Angry Dogo</h4>
+                      <span class="stateproduct colorpink">Used</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Comayagua, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">150$</span>
+                    </div>
+                  </article> <!--.oneproduct #3-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://scx1.b-cdn.net/csz/news/800a/2020/dog.jpg" alt="friendly dogs">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Friendly dogs</h4>
+                      <span class="stateproduct colorpink">Used</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Roatán, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">550$</span>
+                    </div>
+                  </article> <!--.oneproduct #4-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://media.nature.com/lw800/magazine-assets/d41586-020-03053-2/d41586-020-03053-2_18533904.jpg" alt="point ears canine">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Pointy ears Canine</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: SPS, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">300$</span>
+                    </div>
+                  </article> <!--.oneproduct #5-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HB4AT3D3IMI6TMPTWIZ74WAR54.jpg&w=916" alt="loving dog">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Loving dog</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: La Paz, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">100$</span>
+                    </div>
+                  </article> <!--.oneproduct #6-->
+                </div>
+              </div>
+            </div>
+          </div> <!--.row #1 in catalog-->
+          <div class="row row2 mx-auto">
+            <div class="hdrcatalog py-2">
+              <ul class="d-flex flex-row align-items-center pl-0 mb-0">
+                <li>
+                  <i class="fas fa-paw"></i>
+                </li>
+                <li>
+                  <h6 class="h3hdrcata helvetica-bold mb-0">Cats</h6>
+                </li>
+                <li>
+                  <small class="txthdrcata helvetica-ligth">Compare prices for feline accesories</small>
+                </li>
+              </ul>
+            </div><!--.hdrcatalog-->
+            <div class="containsproducts py-1">
+              <div class="row">
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://zjf683hopnivfq5d12xaooxr-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/GettyImages-1199242002-1-scaled.jpg" alt="expecting cat">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Expecting cat</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Yoro, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">40$</span>
+                    </div>
+                  </article> <!--.oneproduct-->
+                </div> 
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg?resize=750px:*" alt="sleepy cat">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Sleepy cat</h4>
+                      <span class="stateproduct colorpink">Old</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Copan, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">10$</span>
+                    </div>
+                  </article><!--.oneproduct #2-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://scitechdaily.com/images/Cat-Wearing-COVID-19-Mask-1536x1024.jpg" alt="Cat with mask">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Masked cat</h4>
+                      <span class="stateproduct colorpink">Used</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Trujillo, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">15$</span>
+                    </div>
+                  </article> <!--.oneproduct #3-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.petmd.com/sites/default/files/styles/article_image/public/orange-tabby-kitten-walking-across-floor.jpg?itok=ApRxY9_r" alt="cute kitten">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">cute kitten</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Valle de Angeles, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">55$</span>
+                    </div>
+                  </article> <!--.oneproduct #4-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.sciencenews.org/wp-content/uploads/2020/02/021520_catallergies_main.jpg" alt="Suspicious cat">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Suspicious looking cat</h4>
+                      <span class="stateproduct colorpink">Used</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Utila, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">3$</span>
+                    </div>
+                  </article> <!--.oneproduct #5-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.ctvnews.ca/polopoly_fs/1.5098407.1599687805!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg" alt="Grey cat">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Grey cat</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Choluteca, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">1000$</span>
+                    </div>
+                  </article> <!--.oneproduct #6-->
+                </div>
+              </div>
+            </div>
+          </div> <!--.row #2 in catalog-->
+          <div class="row row2 mx-auto">
+            <div class="hdrcatalog py-2">
+              <ul class="d-flex flex-row align-items-center pl-0 mb-0">
+                <li>
+                  <i class="fas fa-fish"></i>
+                </li>
+                <li>
+                  <h6 class="h3hdrcata helvetica-bold mb-0">Fish & Reptiles</h6>
+                </li>
+                <li>
+                  <small class="txthdrcata helvetica-ligth">Compare prices for fish and reptile pets</small>
+                </li>
+              </ul>
+            </div>
+            <div class="containsproducts py-1">
+              <div class="row">
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.treehugger.com/thmb/Tcw0O9ZjMg5ycVoupIIx8nn4_a4=/2166x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__09__eastern-box-turtle-forest-bf2f09839f1f4ebb99b2f6aee6d1ab59.jpg" alt="Box turtle">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Box turtle</h4>
+                      <span class="stateproduct colorpink">old</span>
+                      <span class="locationproduct colorgrey txtmd">Where: La Esperanza, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">41$</span>
+                    </div>
+                  </article> <!--.oneproduct-->
+                </div> 
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://cdn.mos.cms.futurecdn.net/RY2EpSo74hvYXyAVpTN2Gg-1024-80.jpg.webp" alt="Siamese Fighting Fish">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Siamese Fighting Fish</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Guanaja, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">4500$</span>
+                    </div>
+                  </article><!--.oneproduct #2-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.lifeder.com/wp-content/uploads/2019/11/ejemplar-de-Boa-constrictor-foto-min-1068x713.jpg" alt="Boa constrictor">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Boa constrictor</h4>
+                      <span class="stateproduct colorpink">Used</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Gracias a Dios, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">150$</span>
+                    </div>
+                  </article> <!--.oneproduct #3-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://img.bekiamascotas.com/articulos/61000/61422/5.jpg" alt="Camaleon">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Cameleon</h4>
+                      <span class="stateproduct colorpink">New</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Amarateca, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">50$</span>
+                    </div>
+                  </article> <!--.oneproduct #4-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://www.cornel1801.com/disney/Finding-Nemo-2003/pictures/101.jpg" alt="Crush">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Crush</h4>
+                      <span class="stateproduct colorpink">190 years old</span>
+                      <span class="locationproduct colorgrey txtmd">Sweeeett dude..... Totally </span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">300$</span>
+                    </div>
+                  </article> <!--.oneproduct #5-->
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 p-0">
+                  <article class="oneproduct p-2 d-flex flex-column justify-content-between">
+                    <div class="imgproduct p-1">
+                      <a href="#">
+                        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/3171/production/_85675621_cat_fish_lavroff_flickr.jpg" alt="Catfish">
+                      </a>
+                    </div>
+                    <div class="txtproduct d-flex flex-column p-1">
+                      <h4 class="nameproduct colorgrey mb-0">Catfish</h4>
+                      <span class="stateproduct colorpink">Used</span>
+                      <span class="locationproduct colorgrey txtmd">Where: Yojoa, Honduras.</span>
+                    </div>
+                    <div class="btmproduct d-flex flex-row justify-content-between px-2 py-1">
+                      <div class="addplus border p-1">
+                        <a href="#">
+                          <i class="fas fa-plus colorgrey"></i>
+                        </a>
+                      </div>
+                      <span class="priceproduct colorpink">10$</span>
+                    </div>
+                  </article> <!--.oneproduct #6-->
+                </div>
+              </div>
+            </div>
+          </div> <!--.row #3 in catalog-->
+        </section>
+      </main>
+      <footer class="py-3">
+        <section class="topfoo py-3">
+          <div class="row row2 mx-auto"> 
+            <article class="firstfoo col-3">
+              <div class="d-flex align-items-center justify-content-center w-80 pb-2">
+                <img src="assets/dog-gray.svg" alt="a dog in the foo"/>
+                <h3 class="helvetica-bold text-uppercase colorgrey firstfootxt mb-0">PETS</h3>
+              </div>
+              <div class="text-center">
+                <p class="helvetica-ligth colorgrey firstfootxt mb-0">
+                  Lorem ipsum dolor is simply a dummy text. Lorem Ipsum has been the industry's standard dummy text ecer since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book.
+                </p>
+              </div>
+            </article> <!--.firstfoo-->
+            <article class="secondfoo col-4 px-2">
+              <div class="ftrscthdr">
+                <h4 class="firstfootxt colorpink helvetica-Med text-uppercase">Categories</h4>
+              </div>
+              <div class="d-flex justify-content-between">
+                <ul class="p-0 mb-0">
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Dogs</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Cats</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Fish</a>                    
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Hamsters</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Turtles</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Spiders</a>
+                  </li>
+                </ul>
+                <ul class="p-0 mb-0">
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Dogs</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Cats</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Fish</a>                    
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Hamsters</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Turtles</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Spiders</a>
+                  </li>
+                </ul>
+              </div>
+            </article><!--.secondfoo-->
+            <article class="thirdfoo col-2 pl-4">
+              <div class="ftrscthdr">
+                <h4 class="firstfootxt colorpink text-uppercase">Navigation</h4>
+              </div>
+              <div>
+                <ul class="p-0 mb-0">
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Sign In</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Sign Up</a>                    
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#" class="helvetica-ligth firstfootxt colorgrey">Help</a>
+                  </li>
+                </ul>
+              </div>
+            </article><!--.thirdfoo-->
+            <article class="fourthfoo col-3 p-1 d-flex align-items-center justify-content-end">
+              <div class="d-flex justify-content-end">
+                <ul class="px-1 m-0 text-center">
+                  <li>
+                    <a href="#" class="aenfoo helvetica-ligth firstfootxt">
+                      Country
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="aenfoo helvetica-ligth firstfootxt">
+                      Language
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="aenfoo helvetica-ligth firstfootxt">
+                      Currency
+                    </a>
+                  </li>
+                </ul>
+                <ul class="scnd p-0 m-0 text-center">
+                  <li>
+                    <a href="#" class="answers helvetica-ligth firstfootxt">
+                      Switzerland
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="answers helvetica-ligth firstfootxt">
+                      English
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="answers helvetica-ligth firstfootxt">
+                      US Dollar
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </article><!--.fourthfoo-->
+          </div>
+        </section>
+        <section class="lowfoo py-2">
+          <div class="row row2 mx-auto d-flex flex-row justify-content-between">
+            <div class="leftstuff">
+              <span class="firstfootxt colorgrey helvetica-ligth">Copyright 2015 Zattix.com. All right reserved. Designed by Mohammed Awad.</span>
+            </div>
+            <div class="rightstuff">
+              <ul class="d-flex justify-content-end p-0 m-0">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-yahoo colorgrey"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-google-plus-g colorgrey"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in colorgrey"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter colorgrey"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f colorgrey"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <!--.continer-fluid-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

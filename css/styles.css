@@ -1,0 +1,614 @@
+/* ----- styles for PETS ----- */
+
+/* ------------------------------------------
+fonts
+*/
+
+.gotham-bold {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.gotham-rounded {
+  font-family: 'Farsan', cursive;
+  font-weight: 800;
+}
+
+.helvetica-ligth {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.helvetica-bold {
+  font-family: 'Raleway', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+}
+
+.helvetica-Med {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* -------------------------------------------
+basic styles
+*/
+
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.allofit {
+  background-color: #f7f7f7;
+}
+
+.txtmd {
+  font-size: 0.65em;
+  line-height: 1.2em;
+}
+
+.txtmdlg {
+  font-size: 0.85em;
+  line-height: 2em;
+}
+
+.colorpink {
+  color: #d35266;
+}
+
+.colorgrey {
+  color: #888;
+}
+
+.row1 {
+  width: 80%;
+}
+
+.row2 {
+  width: 95%;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+}
+
+/* responsive base styles */
+
+@media (min-width: 1200px) {
+  .row1 {
+    width: 70%;
+  }
+
+  .row2 {
+    width: 85%;
+  }
+}
+
+/* -------------------------------------------
+navbar
+ */
+
+nav.mynav {
+  background-color: #383838;
+  border-bottom: 5px solid #888;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 110;
+}
+
+.logoleft img {
+  width: 30px;
+}
+
+nav section {
+  padding: 0.215em;
+}
+
+nav section a span,
+nav section a div.logodog {
+  padding-right: 0.35em;
+}
+
+nav section a div.logodog {
+  padding-left: 0.35em;
+}
+
+.hotad img {
+  width: 100%;
+  height: 70%;
+}
+
+.imguserholder {
+  width: 30px;
+  height: 30px;
+}
+
+.profilestuff li {
+  padding: 0 0.4em;
+}
+
+.postad {
+  width: 100%;
+  height: 100%;
+  background-color: #d35266;
+  border-radius: 10px;
+  border: 1px solid #8d2f3d;
+}
+
+/*  responsive nav */
+
+@media (min-width: 768px) {
+  .mynav .row {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ----------------------------------------------
+header
+*/
+
+header.mainhdr {
+  background-color: palevioletred;
+  height: 250px;
+  margin-top: 45px;
+  background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-gradient {
+  display: block;
+  position: absolute;
+  background: transparent url(../assets/img/angryimg.png) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+  z-index: 2;
+}
+
+.txthdr {
+  height: auto;
+  z-index: 3;
+}
+
+header section.formhdr {
+  background-color: transparent;
+  font-size: 0.75em;
+  z-index: 3;
+}
+
+header .formhdr fieldset div.form-group {
+  margin-right: 0.2em;
+  font-size: 0.75em;
+}
+
+header .formhdr fieldset a.butnformhdr {
+  margin-left: 0.35em;
+  background-color: #383838;
+}
+
+.fontform {
+  font-size: 0.9em;
+  border-radius: 0;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w45 {
+  width: 45%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+/* responsive header  */
+
+@media (min-width: 992px) {
+  header.mainhdr {
+    margin-top: 65px;
+  }
+
+  .smltxtads {
+    font-size: 0.85em;
+  }
+}
+
+/* ---------------------------------------------
+main
+*/
+
+/* hot ads */
+
+.adimg {
+  width: 40%;
+}
+
+.adtxt {
+  width: 60%;
+}
+
+.btnads {
+  height: 30px;
+}
+
+.adtxt .btnads a {
+  display: inline-block;
+  background-color: #d35266;
+  color: #f7f7f7;
+  border-radius: 0.15em;
+  border: 1px solid #8d2f3d;
+  height: 100%;
+  padding: 0.25em 0.5em;
+}
+
+.btn1ad {
+  width: 30%;
+}
+
+.btn2ad {
+  width: 70%;
+}
+
+.btnsenad {
+  font-size: 0.7em;
+  line-height: 1.2em;
+}
+
+/* responsive add */
+
+@media (min-width: 768px) {
+  .btnsenad {
+    font-size: 0.9em;
+    line-height: 1.8em;
+  }
+}
+
+/* catalog */
+.catalog {
+  background-color: rgba(231, 231, 231, 0.89);
+}
+
+.hdrcatalog {
+  border-bottom: 1px solid #383838;
+}
+
+.hdrcatalog ul {
+  padding-left: 0;
+}
+
+.hdrcatalog li {
+  padding: 0.2em 0.35em;
+}
+
+.txthdrcata {
+  font-size: 0.75em;
+}
+
+article.oneproduct {
+  background-color: #f7f7f7;
+  height: 325px;
+  margin: 0.2em 0.35em 0.45em;
+}
+
+.nameproduct {
+  font-size: 1.15em;
+}
+
+/* responsive catalog */
+
+@media (min-width: 992px) {
+  article.oneproduct {
+    margin: 0.2em 0.15em 0.45em;
+  }
+}
+
+/* ---------------------------------------------
+footer
+*/
+
+footer section.topfoo article {
+  padding: 0;
+}
+
+.firstfootxt {
+  font-size: 0.65em;
+  line-height: 1.1em;
+}
+
+.firstfoo img {
+  width: 25px;
+  height: auto;
+}
+
+footer section article.firstfoo h3 {
+  padding-left: 0.55em;
+}
+
+.thirdfoo {
+  padding-left: 1em;
+}
+
+footer section.topfoo article.secondfoo div.ftrscthdr,
+footer section.topfoo article.thirdfoo div.ftrscthdr {
+  border-bottom: 1px solid #d35266;
+}
+
+.aenfoo {
+  color: #d35266;
+}
+
+.answers {
+  color: #888;
+  padding: 0.25em 0.25em;
+}
+
+footer section.lowfoo {
+  border-top: 1px solid #888;
+}
+
+.leftstuff {
+  width: 60%;
+}
+
+.rightstuff {
+  width: 40%;
+}
+
+.rightstuff li {
+  padding: 0 0.5em;
+}
+
+@media (min-width: 768px) {
+  .firstfootxt {
+    font-size: 0.75em;
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .firstfootxt {
+    font-size: 0.95em;
+    line-height: 1.8em;
+  }
+}
+
+/* ----------------------------------------------
+results
+*/
+
+section.allresults {
+  background-color: #dadada;
+}
+
+.allresults img {
+  width: 100%;
+  height: 100%;
+}
+
+nav .profilestuff img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px 50px;
+}
+
+main section.catalog img {
+  width: 100%;
+  height: 180px;
+}
+
+.oneresult,
+.hdrresults {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #696969;
+  padding: 0.5em;
+}
+
+.txtresult {
+  padding: 0.5em;
+  width: 65%;
+}
+
+.txtresult > div {
+  height: 100%;
+  margin-left: 0.5em;
+}
+
+.fornormalflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.btnimgres {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  height: 10%;
+  background-color: #696969;
+}
+
+.aimgres {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.priceres {
+  display: block;
+  width: 25%;
+  height: 10%;
+  background-color: #d35266;
+  border: 1px solid #8d2f3d;
+  margin-left: auto;
+  padding: 0.15em;
+  font-size: 0.9em;
+}
+
+.lowerrightbtnsres {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.inforesults,
+.nameres,
+.statusres,
+.descripres,
+.locatres,
+.dateres,
+.priceres,
+.searchmods,
+.hdrsearmod,
+.adtxt p {
+  font-size: 0.65em;
+}
+
+.firstsearchmods {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #696969;
+}
+
+.mycontainer {
+  border-right: 1px solid #696969;
+  padding: 0 0.4em;
+}
+
+#secondresult {
+  background-color: white;
+}
+
+#secondresult .priceres {
+  margin: 0 0.5em;
+}
+
+#secondresult #price1 {
+  width: 650%;
+}
+
+.imgresult {
+  width: 45%;
+  height: auto;
+}
+
+.allresults .row div[class^="col-"] {
+  border-right: 1px solid #383838;
+}
+
+/* responsive results */
+
+@media (min-width: 768px) {
+  .hdrresults {
+    padding: 1em;
+  }
+
+  .imgresults {
+    width: 30%;
+  }
+
+  .txtresult {
+    width: 70%;
+    padding: 0.75em;
+  }
+
+  .inforesults,
+  .nameres,
+  .statusres,
+  .descripres,
+  .locatres,
+  .dateres,
+  .priceres,
+  .searchmods,
+  .hdrsearmod,
+  .adtxt p {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inforesults,
+  .nameres,
+  .statusres,
+  .descripres,
+  .locatres,
+  .dateres,
+  .priceres,
+  .searchmods,
+  .hdrsearmod,
+  .adtxt p {
+    font-size: 1em;
+  }
+
+  .txtresult {
+    padding: 1em;
+  }
+}
+
+/* header-results */
+
+.mainhdr-results {
+  background-color: palevioletred;
+  margin-top: 38px;
+  padding-top: 1em;
+  background-image: url(https://user-images.githubusercontent.com/6587226/107611936-bb226b80-6c0a-11eb-976c-e95df0f01273.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .mainhdr-results {
+    margin-top: 50px;
+  }
+}
+
+.bghdr {
+  margin-top: 1em;
+}
+
+/* stuff that has to go at bottom  */
+
+section.iconsright li {
+  padding: 0 0.25em;
+}
+
+footer section.topfoo article.fourthfoo ul li {
+  padding: 0.25em 0;
+  margin: 0.25em 0;
+}
+
+footer section.topfoo article.fourthfoo ul.scnd li {
+  border: 1px solid #888;
+}
